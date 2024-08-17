@@ -1,0 +1,34 @@
+// -*- mode: json -*-
+
+{
+	"layer": "top",
+	"position": "top",
+	"height": 14,
+	"margin-left": 10,
+	"margin-right": 10,
+	"margin-top": 5,
+
+	"include": ["~/.config/waybar/themes/modulestop.json"],
+		
+	"modules-left": [
+		
+		"custom/launcher",
+    "group/hardware",
+		"hyprland/window"
+
+	],
+
+	"modules-center": [
+		
+		"hyprland/workspaces"
+	
+	],
+	"modules-right": [
+	
+		"pulseaudio",
+		"clock",
+		"tray",
+		"custom/notification"
+				
+	]
+}
