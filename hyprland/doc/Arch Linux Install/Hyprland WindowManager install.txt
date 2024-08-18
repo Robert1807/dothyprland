@@ -28,7 +28,7 @@ sudo pacman -S ranger atool ffmpegthumbnailer highlight imagemagick libcaca medi
 
 sudo pacman -S swww python-pywal --noconfirm --needed
 
-sudo pacman -S hyprlock waybar swaync udiskie network-manager-applet rofi-wayland fish starship atuin zoxide direnv bat eza kooha --noconfirm --needed
+sudo pacman -S hyprlock waybar swaync swappy udiskie network-manager-applet rofi-wayland fish starship atuin zoxide direnv bat eza kooha --noconfirm --needed
 
 sudo pacman -S mpv yt-dlp --noconfirm --needed
 
