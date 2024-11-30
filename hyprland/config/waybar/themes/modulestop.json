@@ -305,6 +305,38 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
 
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 20,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        // "format-icons": ["", "", "", "", ""],
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "format-charging": "󱘖  {capacity}%",
+        "format-plugged": "󱘖  {capacity}%",
+        "tooltip-format": "{time}",
+        "interval": 1,
+        "min-length": 6,
+        "max-length": 6
+    },
+
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
+
     "custom/notification": {
     "tooltip": true,
     "format": "{icon}",

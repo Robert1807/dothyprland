@@ -25,7 +25,9 @@
 	],
 	"modules-right": [
 	
+    "network",
 		"pulseaudio",
+  //"battery",
 		"clock",
 		"tray",
 		"custom/notification"
