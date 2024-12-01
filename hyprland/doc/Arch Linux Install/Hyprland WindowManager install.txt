@@ -28,7 +28,7 @@ sudo pacman -S ranger atool ffmpegthumbnailer highlight imagemagick libcaca medi
 
 sudo pacman -S swww python-pywal --noconfirm --needed
 
-sudo pacman -S hyprlock waybar swaync swappy udiskie network-manager-applet rofi-wayland fish starship atuin zoxide direnv bat eza kooha --noconfirm --needed
+sudo pacman -S hyprlock waybar swaync nwg-look bluez bluez-utils blueman swappy udiskie network-manager-applet rofi-wayland fish starship atuin zoxide direnv bat eza kooha --noconfirm --needed
 
 sudo pacman -S mpv yt-dlp --noconfirm --needed
 
@@ -37,6 +37,8 @@ paru -S google-chrome
 paru -S onlyoffice-bin
 
 paru -S simple-mtpfs
+
+sudo systemctl enable --now bluetooth
 
 #-----------------------------
 # Clonamos nuestro repositorio
